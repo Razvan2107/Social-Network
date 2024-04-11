@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laborator.Controller">
+   <children>
+      <TableView fx:id="tableView" layoutX="32.0" layoutY="29.0" prefHeight="271.0" prefWidth="662.0">
+        <columns>
+          <!--<TableColumn fx:id="tableColumnID" prefWidth="90.80000305175781" text="ID" />-->
+          <TableColumn fx:id="tableColumnFirstName" prefWidth="326.5999984741211" text="First Name" />
+          <TableColumn fx:id="tableColumnLastName" prefWidth="335.0000305175781" text="Last Name" />
+        </columns>
+      </TableView>
+      <Button layoutX="32.0" layoutY="318.0" mnemonicParsing="false" onAction="#addUser" prefHeight="26.0" prefWidth="172.0" text="Add" />
+      <Button layoutX="283.0" layoutY="318.0" mnemonicParsing="false" onAction="#deleteUser" prefHeight="26.0" prefWidth="160.0" text="Delete" />
+      <Button layoutX="522.0" layoutY="318.0" mnemonicParsing="false" onAction="#updateUser" prefHeight="26.0" prefWidth="172.0" text="Update" />
+
+       <!--<Label layoutX="32.0" layoutY="323.0" prefHeight="18.0" prefWidth="64.0" text="ID" />-->
+       <Label layoutX="32.0" layoutY="359.0" prefHeight="18.0" prefWidth="64.0" text="First Name" />
+       <Label layoutX="32.0" layoutY="395.0" prefHeight="18.0" prefWidth="64.0" text="Last Name" />
+       <!--<TextField fx:id="AdaugaId" layoutX="97.0" layoutY="318.0" prefHeight="26.0" prefWidth="106.0" />-->
+       <TextField fx:id="AdaugaFirstName" layoutX="97.0" layoutY="355.0" prefHeight="26.0" prefWidth="106.0" />
+       <TextField fx:id="AdaugaLastName" layoutX="97.0" layoutY="391.0" prefHeight="26.0" prefWidth="106.0" />
+
+       <Label layoutX="284.0" layoutY="395.0" prefHeight="18.0" prefWidth="27.0" text="ID" />
+       <TextField fx:id="StergeId" layoutX="316.0" layoutY="391.0" prefHeight="26.0" prefWidth="128.0" />
+
+       <Label layoutX="527.0" layoutY="359.0" prefHeight="18.0" prefWidth="54.0" text="ID" />
+       <Label layoutX="522.0" layoutY="395.0" prefHeight="18.0" prefWidth="64.0" text="First Name" />
+       <Label layoutX="522.0" layoutY="453.0" prefHeight="18.0" prefWidth="64.0" text="Last Name" />
+       <TextField fx:id="UpdateId" layoutX="587.0" layoutY="355.0" prefHeight="26.0" prefWidth="106.0" />
+       <TextField fx:id="UpdateFirstName" layoutX="587.0" layoutY="391.0" prefHeight="26.0" prefWidth="106.0" />
+       <TextField fx:id="UpdateLastName" layoutX="587.0" layoutY="449.0" prefHeight="26.0" prefWidth="106.0" />
+   </children>
+</AnchorPane>
