@@ -4,7 +4,7 @@ A Social Network made in Java: within the subject Advanced Programming Methods f
 
 Basic functionalities (functional requirements):
 
--User management: CRUD operations (to advance more quickly, I suggest reading these users, initially from a CSV file and then from a Databade implemented in PostgreSQL).
+-User management: CRUD operations (to advance more quickly, I suggest reading these users, initially from a CSV file and then from a Database implemented in PostgreSQL).
 -Management of friendship relationships between users: adding/removing a friend.
 -Determining the community to which a certain user belongs (the connected component of the network that contains the respective user).
 -Message management: sending/deleting a message.
